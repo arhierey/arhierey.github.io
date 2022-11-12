@@ -1,3 +1,65 @@
-body {
-    background-color: yellow;
+html, body {
+    height: 100%;
+    background-color: #10111A;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 80%;
+    background-color: #286E70;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+p{
+    padding: 30px;
+    color: #EBE8E3;
+    font-family: "Lucida Console", monospace;
+    text-align: justify;
+}
+
+.name{
+    color: #B2B1A7;
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+}
+
+.header{
+    background-color: #10111A;
+    color: #8F5381;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+}
+
+.footer{
+    background-color: #10111A;
+    color: #8F5381;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+}
+
+.python{
+    text-align: center;
+}
+
+.python img{
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #EBE8E3;
+    font-family: "Lucida Console", monospace;
+}
+
+.go-home{
+    text-align: center;
+    padding: 30px;
 }
